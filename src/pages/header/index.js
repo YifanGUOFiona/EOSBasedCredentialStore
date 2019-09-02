@@ -32,12 +32,12 @@ class Header extends Component {
           style={{lineHeight: '64px'}}
         >
           <Menu.Item key='/'><Link to='/'>Credentials</Link></Menu.Item>
-          <Menu.Item key='/category/1'><Link to='/category/1'>Certificate type 1</Link></Menu.Item>
-          <Menu.Item key='/category/2'><Link to='/category/2'>Certificate type 2</Link></Menu.Item>
-          <Menu.Item key='/category/3'><Link to='/category/3'>Certificate type 3</Link></Menu.Item>
-          <Menu.Item key='/category/4'><Link to='/category/4'>Certificate type 4</Link></Menu.Item>
-          <Menu.Item key='/category/5'><Link to='/category/5'>Certificate type 5</Link></Menu.Item>
-          <Menu.Item key='/category/6'><Link to='/category/6'>Certificate type 6</Link></Menu.Item> 
+          <Menu.Item key='/category/1'><Link to='/category/1'>Username&Password</Link></Menu.Item>
+          <Menu.Item key='/category/2'><Link to='/category/2'>Identification</Link></Menu.Item>
+          <Menu.Item key='/category/3'><Link to='/category/3'>Certificate</Link></Menu.Item>
+          <Menu.Item key='/category/4'><Link to='/category/4'>Badge</Link></Menu.Item>
+          <Menu.Item key='/category/5'><Link to='/category/5'>Trademark</Link></Menu.Item>
+          <Menu.Item key='/category/6'><Link to='/category/6'>Others</Link></Menu.Item> 
         </Menu>
       </Layout.Header>
     );
@@ -79,3 +79,4 @@ const mapDispatch = (dispatch) => ({
 });
 
 export default connect(mapState, mapDispatch)(withRouter(Header));
+
